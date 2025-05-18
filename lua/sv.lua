@@ -1,10 +1,8 @@
-ESX = nil 
 local admins = {
     'steam:110000119bd3a84',
     'steam:000000000000000'
 }
 ---
-TriggerEvent('esx:getSharedObject', function(obj) ESX = obj end)
 function isAdmin(player)
     local allowed = false
     for i,id in ipairs(admins) do
