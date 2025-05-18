@@ -19,5 +19,8 @@ client_script"lua/cl.lua"
 server_scripts {
 	'lua/sv.lua',
 }
+
+shared_script '@es_extended/imports.lua'
+
 dependency 'souki_carmenu'
 --by Souki | https://discord.gg/g4Kcnhahwj
